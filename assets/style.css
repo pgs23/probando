@@ -22,13 +22,18 @@ main {
   border: 1px solid rgb(0, 24, 238);
 
 }
+img{
+  align-items: center;
+}
 
 footer {
   position: static;
   border: 1px solid brown;
+  height: 100%;
 }
 
 h1 {
+  text-align: center;
   font-family: 'Pacifico', cursive;
   size: 130px;
   color: rgb(20, 119, 106);
@@ -54,11 +59,15 @@ h4 {
 
 }
 
-.container {
-  display: flex;
+.container picture {
+  display: inline-block;
   background-color: hsl(180, 60%, 82%);
-  padding: 20px;
-  padding-left: 20%;
-  gap: 2rem;
 
+  gap: 2rem;
+  box-sizing: border-box;
+}
+.container-video{
+  display: flex;
+  box-sizing: content-box;  
+  gap: 32px;
 }
