@@ -10,6 +10,7 @@ form.addEventListener("submit", e => {
   ).then((html) => {
     
     alert('Gracias por tu Mensaje ')
+    PedidosPetShop.reset();
     
   });
 });
