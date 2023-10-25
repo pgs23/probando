@@ -53,11 +53,35 @@ h4 {
 
 }
 
-.container {
-  display: flex;
-  background-color: hsl(180, 60%, 82%);
-  padding: 20px;
-  padding-left: 20%;
-  gap: 2rem;
+.objeto {
+  margin: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
 
+.parrafo-oculto {
+  display: none;
+}
+
+.objeto:hover .parrafo-oculto {
+  display: block;
+}
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Divide en dos columnas de igual ancho */
+  gap: 20px; /* Espacio entre las columnas */
+  place-items: center;
+ 
+}
+
+/* Estilos para cada columna (opcional) */
+.columna {
+  border: 1px solid #000;
+}
+
+.conteiner {
+  display: inline-block;
+  margin: 20px; /* Espacio entre las imágenes, si lo deseas */
 }
