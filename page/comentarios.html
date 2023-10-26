@@ -35,19 +35,27 @@
   </div>
   </header>
   <main>
-    <center>
-    <form method="post" action="https://sheetdb.io/api/v1/nu5diyqjgddny" id="PedidosPetShop">
-        <h1>Formulario de Contacto</h1>
+ 
 
-        <h3>Información de contacto</h3>
-        Nombre: <input name="data[Nombre]"><br>
-        Email: <input name="data[Email]"> <br>
-        Comentario: <input name="data[Comentario]" placeholder="Introduce tu mensaje">
-      
-        <button type="submit">Enviar</button>
-   
+    <form action="https://sheetdb.io/api/v1/nu5diyqjgddny" method="post" id="PedidosPetShop">
+      <h3>Información de contacto</h3><br>
+    
+      <div>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="data[Nombre]" />
+      </div>
+      <div>
+        <label for="mail">Correo electrónico:</label>
+        <input type="email" id="mail" name="data[Email]" />
+      </div>
+      <div>
+        <label for="msg">Comentario:</label>
+        <textarea id="msg" name="data[Comentario]"></textarea>
+      </div>
+      <div class="button">
+        <button type="submit">Envia tu mensaje</button>
+      </div>
     </form>
-    </center>
 
     <footer>
       <div align="center">
