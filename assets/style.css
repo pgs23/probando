@@ -37,6 +37,7 @@ h1 {
   font-family: 'Pacifico', cursive;
   size: 130px;
   color: rgb(20, 119, 106);
+  text-align: center;
 }
 
 h2 {
@@ -66,8 +67,38 @@ h4 {
   gap: 2rem;
   box-sizing: border-box;
 }
+
+.objeto {
+  margin: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.parrafo-oculto {
+  display: none;
+}
+
+.objeto:hover .parrafo-oculto {
+  display: block;
+}
+
+p {font-family: 'arial', cursive;
+  size: 20;
+  color: gray;}
+
+.container-2 {
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  padding-inline-start: 10%;
+}
+
+
 .container-video{
   display: flex;
   box-sizing: content-box;  
   gap: 32px;
 }
+
