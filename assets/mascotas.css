@@ -1,66 +1,80 @@
-
 *,
 html {
   margin: 0;
   padding: 0;
 }
 
-body{
+body {
   box-sizing: border-box;
   display: grid;
-
   background-image: (359.8deg, rgba(252, 255, 222, 1) 2.2%, rgb(136, 201, 116) 99.3%);
 
 }
+
 header {
   text-align: center;
-
-  height: 80%;
+  height: 90%;
   position: sticky;
   border: 1px solid red;
   background-image: linear-gradient(359.8deg, rgba(252, 255, 222, 1) 2.2%, rgb(136, 201, 116) 99.3%);
 }
 
 .menu-vertical {
-position: fixed;
-width: 200px;
-height: 100svh;
+  position: fixed;
+  width: 200px;
+  height: 100svh;
 }
 
 .menu-vertical a {
-background-color: #eee;
-color: black;
-display: block;
-padding: 1em;
-text-decoration: none;
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 1em;
+  text-decoration: none;
 }
 
 .menu-vertical a:hover {
-background-color: #ccc;
+  background-color: #ccc;
 }
 
 .menu-vertical a.active {
-background-color: #04aa6d;
-color: rgb(236, 225, 225);
+  background-color: #04aa6d;
+  color: rgb(236, 225, 225);
 }
+
 main {
-  margin-left: 350px;
-  min-height: 100vh;
-  background-color: rgb(217, 246, 223) ;
+  margin-left: 300px;
+  min-height: 100svh;
+  background-color: rgb(217, 246, 223);
   text-align: center;
 }
 
 
 td img {
-    padding-inline: 15px;
-    border-radius: 40%;
-    width: 200px;
-    height: 200px;
-  
+  padding-inline: 5px;
+  border-radius: 40%;
+  width: 200px;
+  height: 200px;
+
 }
 
-button{
-  border-top-right-radius: 15%;
-  border-bottom-left-radius: 15%;
+table {
+  padding-top: 20px;
+}
 
+.image-container {
+  display: inline-flex;
+  margin: 10px;
+  text-align: center;
+
+}
+
+.text {
+  display: grid;
+  position: relative;
+
+
+}
+.hidden {
+  display: none;
 }
