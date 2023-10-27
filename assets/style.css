@@ -5,6 +5,7 @@
 html {
   margin: 0;
   padding: 0;
+
 }
 
 body {
@@ -12,7 +13,7 @@ body {
   flex-direction: wrap;
   flex-direction: column;
   position: relative ;
-  height: 100svh;
+  height: 100%;
   box-sizing: border-box;
 }
 
@@ -97,8 +98,8 @@ p {font-family: 'arial', cursive;
 
 
 .container-video{
-  display: flex;
-  box-sizing: content-box;  
-  gap: 32px;
+  display: -ms-flexbox;
+  padding-inline: 20px;
+  
 }
 
