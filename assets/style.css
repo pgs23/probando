@@ -20,7 +20,7 @@ body {
 main {
   height: 100%;
   position: static;
-  border: 1px solid rgb(0, 24, 238);
+  border: 0px solid rgb(0, 24, 238);
 
 }
 img{
@@ -29,7 +29,7 @@ img{
 
 footer {
   position: static;
-  border: 1px solid brown;
+  border: 0px solid brown;
   height: 100%;
 }
 
@@ -70,6 +70,8 @@ h4 {
 }
 
 .objeto {
+  position:relative;
+  display: inline-block;
   margin: 10px;
   border: 1px solid #ccc;
   padding: 10px;
@@ -82,19 +84,21 @@ h4 {
 }
 
 .objeto:hover .parrafo-oculto {
-  display: block;
+  display:grid;
 }
 
 p {font-family: 'arial', cursive;
   size: 20;
   color: gray;}
 
-.container-2 {
-  position: relative;
-  display: flex;
-  box-sizing: border-box;
-  padding-inline-start: 10%;
-}
+
+
+  .container-2 {
+    position:static;
+    display: inline-block;
+    box-sizing: content-box;
+    padding-inline-start: 0%;
+  }
 
 
 .container-video{
