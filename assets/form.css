@@ -1,9 +1,10 @@
 @import url(../assets/headers.css);
 
+
 form {
   margin: 0 auto;
   width: 400px;
-
+  
   padding: 1em;
   border: 1px solid #ccc;
   border-radius: 1em;
@@ -36,6 +37,7 @@ textarea {
 }
 .button {
   padding-left: 90px;
+  height: 15px;
 }
 button {
   font-size: 10px;

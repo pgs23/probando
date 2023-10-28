@@ -25,6 +25,8 @@ main {
 }
 img{
   align-items: center;
+
+  width: 300px;
 }
 
 footer {
@@ -92,8 +94,7 @@ p {font-family: 'arial', cursive;
   color: gray;}
 
 
-
-  .container-2 {
+.container-2 {
     position:static;
     display: inline-block;
     box-sizing: content-box;
