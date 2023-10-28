@@ -45,7 +45,7 @@ header {
 main {
   margin-left: 300px;
   min-height: 100svh;
-  background-color: rgb(217, 246, 223);
+  background-color: #ebffca;
   text-align: center;
 }
 
@@ -55,26 +55,19 @@ td img {
   border-radius: 40%;
   width: 200px;
   height: 200px;
+  animation: bounce 0.5s infinite;
 
+}
+td p{
+  text-shadow: 2px 2px 4px  rgb(235.255.202);
+  text-align: left;
+  padding: 10px;
 }
 
 table {
-  padding-top: 20px;
+  padding: 35px;
 }
 
-.image-container {
-  display: inline-flex;
-  margin: 10px;
-  text-align: center;
-
-}
-
-.text {
-  display: grid;
-  position: relative;
-
-
-}
 .hidden {
   display: none;
 }
