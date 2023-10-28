@@ -51,15 +51,22 @@ main {
 
 
 td img {
-    padding-inline: 15px;
+    padding-inline: 5px;
     border-radius: 40%;
     width: 200px;
     height: 200px;
   
 }
+td p{
+  text-shadow: 2px 2px 4px  rgb(235.255.202);
+  text-align: left;
+  padding: 10px;
+}
 
-button{
-  border-top-right-radius: 15%;
-  border-bottom-left-radius: 15%;
+table {
+  padding: 35px;
+}
 
+.hidden {
+  display: none;
 }
