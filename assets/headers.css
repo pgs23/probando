@@ -2,7 +2,7 @@
 header {
     font-size: clamp (1rem, 3vw + 0.2rem, 1rem);
     position: sticky;
-    background-image: linear-gradient(359.8deg, rgba(252, 255, 222, 1) 2.2%, rgb(136, 201, 116) 99.3%);
+    background-image: linear-gradient(359.8deg, rgba(252, 255, 222, 1) 2.2%, rgb(167, 248, 171) 99.3%);
   
 }
 
