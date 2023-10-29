@@ -32,6 +32,15 @@ header img {
   height: 250px;
 }
 
+header picture img {
+  align-items: center;
+  width:200px ;
+  height: auto;
+
+}
+
+
+
 h1 {
   text-align: center;
   font-family: "Pacifico", cursive;

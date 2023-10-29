@@ -22,6 +22,15 @@ header {
   background-image: linear-gradient(359.8deg, rgba(252, 255, 222, 1) 2.2%, rgb(136, 201, 116) 99.3%);
 }
 
+
+header picture img {
+  align-items: center;
+  width:200px ;
+  height: auto;
+
+}
+
+
 .menu-vertical {
   position: fixed;
   width: 200px;
