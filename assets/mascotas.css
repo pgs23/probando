@@ -9,7 +9,7 @@ html {
 body {
   box-sizing: border-box;
   display: grid;
-  background-image: (359.8deg, rgb(230, 248, 245) 2.2%, rgb(136, 201, 116) 99.3%);
+  background-image: (359.8deg, rgb(245, 255, 253) 2.2%, rgb(136, 201, 116) 99.3%);
 
 
 }
@@ -19,7 +19,7 @@ header {
   height: 100%;
   position: sticky;
   border: 0px solid red;
-  background-image: linear-gradient(359.8deg, rgb(234, 250, 249) 2.2%, rgb(161, 218, 205) 99.3%);
+  background-image: linear-gradient(359.8deg, rgb(249, 255, 255) 2.2%, rgb(161, 218, 205) 99.3%);
 }
 
 header picture img {
@@ -31,7 +31,7 @@ header picture img {
 .menu-vertical {
   margin: 0em;
   padding: 1em;
-  position: fixed;
+  position: fixed;  
   width: 200px;
   height: 100svh;
   font-family: "Pacifico", cursive;
@@ -67,7 +67,7 @@ main {
 
 td img {
   text-align: center;
-  border-radius: 40%;
+  border-radius: 30%;
   width: 200px;
   height: 200px;
 }
@@ -75,12 +75,13 @@ td img {
 td p {
   text-shadow: 2px 2px 4px rgb(235.255.202);
   text-align: left;
-  padding: 10px;
+  padding: 20px;
 }
 
 table {
   border-collapse: collapse;
-  padding: 35px;
+  margin-top: 10px;
+  padding: 0x;
   width: 100%;
 }
 
