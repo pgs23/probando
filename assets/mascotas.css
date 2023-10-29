@@ -1,4 +1,4 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@100&display=swap");
 
 *,
 html {
@@ -10,7 +10,7 @@ body {
   box-sizing: border-box;
   display: grid;
   background-image: (359.8deg, rgba(252, 255, 222, 1) 2.2%, rgb(136, 201, 116) 99.3%);
-  
+
 
 }
 
@@ -18,28 +18,32 @@ header {
   text-align: center;
   height: 100%;
   position: sticky;
-  border: 1px solid red;
+  border: 0px solid red;
   background-image: linear-gradient(359.8deg, rgba(252, 255, 222, 1) 2.2%, rgb(136, 201, 116) 99.3%);
 }
 
-
 header picture img {
   align-items: center;
-  width:200px ;
+  width: 200px;
   height: auto;
-
 }
 
-
 .menu-vertical {
+  margin: 0em;
+  padding: 1em;
   position: fixed;
   width: 200px;
   height: 100svh;
+  font-family: "Pacifico", cursive;
+  size: 30px;
+  color: rgb(76, 23, 146);
 }
 
 .menu-vertical a {
+  font-family: "Pacifico", cursive;
+  size: 50px;
   background-color: #eee;
-  color: black;
+  color: rgb(80, 0, 76);
   display: block;
   padding: 1em;
   text-decoration: none;
@@ -57,20 +61,19 @@ header picture img {
 main {
   margin-left: 350px;
   min-height: 100vh;
-  background-color: rgb(217, 246, 223) ;
+  background-color: rgb(217, 246, 223);
   text-align: center;
 }
 
 td img {
-    text-align: center;
-
-    border-radius: 40%;
-    width: 200px;
-    height: 200px;
-  
+  text-align: center;
+  border-radius: 40%;
+  width: 200px;
+  height: 200px;
 }
-td p{
-  text-shadow: 2px 2px 4px  rgb(235.255.202);
+
+td p {
+  text-shadow: 2px 2px 4px rgb(235.255.202);
   text-align: left;
   padding: 10px;
 }
