@@ -88,3 +88,7 @@ table {
 .hidden {
   display: none;
 }
+
+footer{
+  height: 70px;
+}
