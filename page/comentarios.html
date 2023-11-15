@@ -1,61 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Unna&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="../assets/style.css" />
-  <link rel="stylesheet" href="../assets/banner.css" />
-  <link rel="stylesheet" href="../assets/style.js" />
-  <link rel="stylesheet" href="../assets/form.css">
-  <title>Pet Shop</title>
+<title>Pet Shop</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/banner.css" rel="stylesheet"  />
+<!--[if IE 6]><link href="css/ie6.css" rel="stylesheet" type="text/css"><![endif]-->
+<!--[if IE 7]><link href="css/ie7.css" rel="stylesheet" type="text/css"><![endif]-->
+ 
 </head>
-
 <body>
-  <div>
-    <header>
-      <center>
-        <h1>Amor Mascotero</h1>
-        <picture>
-          <img src="/media/fotomain.png" alt="Mascotas" width="450" />
-        </picture>
-        <nav>
-          <center>
-            <a href="../index.html">Nosotros</a>
-            <a href="/page/mascotas.html">Mascotas</a>
-            <a href="/page/ubicacion.html">Ubicacion</a>
-            <a href="/page/comentarios.html">Comentarios</a>
-            <div class="animation start-Nosotros"></div>
-          </center>
-        </nav>
-  </div>
-  </header>
-  <main>
-    <center>
+<div id="header"> <a href="#" id="logo"><img src="images/logo.png" width="310" height="114" alt=""></a>
+  <ul class="navigation">
+    <li class="active"><a href="index.html">Nosotros</a></li>
+    <li><a href="mascotas.html">Mascotas</a></li>
+    <li><a href="comentarios.html">Comentarios</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+  </ul>
 
-      <form method="post" action="https://sheetdb.io/api/v1/nu5diyqjgddny" id="PedidosPetShop">
-        <h1>Formulario de Contacto</h1>
-
-        <h3>Información de contacto</h3>
-        Nombre: <input name="data[Nombre]"><br>
-        Email: <input name="data[Email]"> <br>
-        Comentario: <input name="data[Comentario]"
-              placeholder="Introduce tu mensaje">
-        </section>
-        <button type="submit">Enviar</button>
-    </center>
-    </form>
-
-    <footer>
-      <div align="center">
-        <h4>Webmasters: Maria, Liliana, Pablo</h4>
+</div>
+<div id="body">
+  <div id="content">
+    <div class="content">
+      <h2>Guia de mascotas</h2>
+      <div>
+        <p> Aqui tienes algunos tip para tu mascotas. </p>
       </div>
-    </footer>
-    <script src="../assets/js/form.js"></script>
-</body>
+      <ul class="section">
+        <li>
+          <h2>guía de entrenamiento</h2>
+          <p> x. </p>
+        </li>
+        <li>
+          <h2>Haz que se comporten</h2>
+          <p> xxxxxxxxxxxxxxxxxxxxxxxn . </p>
+        </li>
+        <li>
+          <h2>Comida que necesitan</h2>
+          <p>xxxxxxxxxxxxxxxxxxxxxxxxxxx f . </p>
+        </li>
+        <li>
+          <h2>Que hacer y que no hacer</h2>
+          <p> xxxxxxxxxxxxxxxxxxxxxxxxx   </p>
+        </li>
+          <li>
+          <h2>Recetas saludables para mascotas</h2>
+          <p> xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx   </p>
+        </li>
+      </ul>
+      <div class="paging"> <a class="active" href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a class="next" href="#">NEXT</a> </div>
+    </div>
+    <div id="sidebar">
+      <div id="section">
+        <div>
+          <div>
+            <h2>Pet Guide Overview</h2>
+            <ul>
+              <li><a href="#">Entrenamiento de mascotas<span>(1)</span> </a></li>
+              <li><a href="#">Guia de mascotas<span>(11)</span> </a></li>
+              <li><a href="#">Comida para tus mascotas <span>(3)</span> </a></li>
+              <li><a href="#">Resetas para mascotas <span>(8)</span> </a></li>
+               <li><a href="#">Shopping <span></span> </a></li>
+              <li><a href="#">Medicamentos para mascotas <span>(7)</span> </a></li>
+              <li><a href="#">Ejercicios <span>(7)</span> </a></li>
+              <li><a href="#">Dieta <span>(10)</span> </a></li>
+              <li><a href="#">Shopping Guides <span></span> </a></li>
+           
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="featured">
+    <ul>
+      <li><a href="#"><img src="images/organic-and-chemical-free.jpg" width="300" height="90" alt=""></a></li>
+      <li><a href="#"><img src="images/good-food.jpg" width="300" height="90" alt=""></a></li>
+      <li class="last"><a href="#"><img src="images/pet-grooming.jpg" width="300" height="90" alt=""></a></li>
+    </ul>
+  </div>
+</div>
 
-</html>
+</body>
+</html>>
