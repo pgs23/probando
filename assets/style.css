@@ -1,87 +1,530 @@
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@100&display=swap");
-@import url(./headers.css);
-*,
-html {
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  display:grid;
-  flex-direction: wrap;
-  flex-direction: column;
-  position: relative ;
-  height: 100svh;
-  box-sizing: border-box;
+	margin:0;
+	padding:0;
+	background: url("../images/bg-body.gif");
+	background-repeat:repeat-x;
 }
-
-main {
-  height: 100%;
-  position: static;
-  border: 1px solid rgb(0, 24, 238);
-
+#page {
 }
-
-footer {
-  position: static;
-  border: 1px solid brown;
+#header {
+	font-size: clamp (1rem, 3vw + 0.2rem, 1rem);
+	position: relative;
+  background-image: linear-gradient(359.8deg, rgba(252, 255, 222, 1) 2.2%, rgb(136, 201, 116) 99.3%);
+  padding: 5%;
 }
-
-h1 {
-  font-family: 'Pacifico', cursive;
-  size: 130px;
-  color: rgb(20, 119, 106);
+#header a#logo {
+	position:relative;
+	z-index:100;
 }
-
-h2 {
-  font-family: 'Pacifico', cursive;
-  size: 30px;
-  color: rgb(76, 23, 146);
+#header a#logo img {
+	border:0;
 }
-
-h3 {
-  font-family: 'Pacifico', cursive;
-  size: 30px;
-  color: rgb(128, 52, 2);
+/**-------------- Navigation style ---------------**/
+  #header ul.navigation {
+	list-style-type:none;
+	margin:-82px 0 0 300px;
+	padding:0;
+	overflow:hidden;
 }
-
-
-h4 {
-  font-family: 'Courier New', Courier, monospace;
-  size: 20;
-  color: gray;
-
+#header ul.navigation li {
+	float:left;
+	height:35px;
+	width:107px;
 }
-
-.objeto {
-  margin: 10px;
-  border: 1px solid #ccc;
-  padding: 10px;
-  width: 200px;
-  text-align: center;
+#header ul.navigation li.active {
+	background:url("../images/menu.gif");
+	background-repeat:no-repeat;
+	background-position: 0 -160px;
 }
-
-.parrafo-oculto {
-  display: none;
+#header ul.navigation li a {
+	text-decoration:none;
+	color:#2c1d00;
+	font-family:"Myriad Pro";
+	font-size:14px;
+	font-weight:bold;
+	display:inline-block;
+	line-height:35px;
+	background:url("../images/menu-separator.gif");
+	background-repeat:no-repeat;
+	background-position:right;
+	height:35px;
+	padding:0 20px 0 20px;
+	text-align:center;
+	width:67px;
 }
-
-.objeto:hover .parrafo-oculto {
-  display: block;
+#header ul.navigation li a:hover {
+	color:#ffffff;
 }
-.main {
-  display: grid;
-  grid-template-columns: 1fr 1fr; /* Divide en dos columnas de igual ancho */
-  gap: 20px; /* Espacio entre las columnas */
-  place-items: center;
+/**------------- Start of body style ----------------**/
+  
+  #body div.imagen-responsive {
+	background:url("../images/dog.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+	max-width: 100%;
+   	height: 600px;
+}
+#body div#content {
+	width:960px;
+	margin:0 auto;
+	overflow:hidden;
+	background-image:none;
+	height:auto;
+	overflow:hidden;
+}
+#body div#content .content {
+	float:center;
+	width:100%;
+	margin-right:20px;
+	background-image:none;
+	height:auto;
+	overflow:hidden;
+}
+#body #content .content h2 {
+	font-family: "Myriad Pro";
+	margin: 80px 0 0 30px;
+}
+#body #content .content ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+#body #content .content ul li {
+	width:300px;
+	padding:0 10px;
+	margin:0 0 20px 0;
+	float:left;
+	line-height:25px;
+	height:auto;
+}
+#body #content .content ul li span {
+	display:block;
+}
+#body #content .content ul li span a {
+	color: #7F7154;
+	font-family: "Myriad Pro";
+	font-size: 14px;
+	text-decoration:none;
+}
+#body #content .content ul li span a:hover {
+	color: #000000;
+}
+#body #content .content ul li span a.more {
+	text-decoration:none;
+	color:#FFAD00;
+}
+#body #content .content ul li span a.more:hover {
+	text-decoration:none;
+	color:#ff6600;
+}
+#body #content .content ul li a {
+	text-decoration:none;
+}
+#body #content .content ul li a:hover {
+	color:#F8F3E9;
+}
+#body #content .content ul li a.more {
+	text-decoration:none;
+	color:#FFAD00;
+}
+#body #content .content ul li a.more:hover {
+	text-decoration:none;
+	color:#ff6600;
+}
+#body #content .content ul li h2 {
+	font-family:"Myriad Pro";
+	font-size:20px;
+	margin:0;
+}
+#body #content .content ul li p {
+	font-family:"Myriad Pro";
+	font-size:14px;
+	text-align:justify;
+	color:#7f7154;
+	margin:0;
+}
+#body #content .content ul li p a {
+	color:#FF9E01;
+}
+#body #content .content ul li p a:hover {
+	color:#7f7154;
+}
+#body #content .content ul li img {
+	border:0;
+	float:left;
+	margin-right:10px;
+}
+	
+  /**----------- Start of Pet Mart Page Style ----------**/
+  
+  
+  #body #content .search {
+	background:url("../images/bg-search-form2.gif");
+	background-position:center;
+	background-repeat:no-repeat;
+	width:540px;
+	height:75px;
+	margin:0 auto;
+	margin-top:80px;
+	margin-bottom:80px;
+}
+#body #content .search input {
+	background:url("../images/input-search2.gif");
+	background-position:center;
+	background-repeat:no-repeat;
+	width:420px;
+	padding: 8px 5px;
+	border:0;
+	margin:5px 3px 5px 10px;
+	font-size:14px;
+	font-family:"Myriad Pro";
+	color:#7f7154;
+}
+#body #content .search button {
+	background:url("../images/buttons.gif");
+	background-position: 0 -270px;
+	background-repeat:no-repeat;
+	width:77px;
+	height:30px;
+	border:0;
+	margin:5px 5px 5px 0;
+	cursor:pointer;
+}
+#body #content .search label {
+	font-size:14px;
+	font-family:"Myriad Pro";
+	color:#ffffff;
+}
+#body #content .search label input {
+	margin: 0 10px 0 10px;
+	width:10px;
+	background:transparent;
+}
+/**----------- End of Pet Mart Page Style ----------**/
+  
+  
+  /**------------ Start of About page style  -------------**/
+  
+  #body #content .content .about {
+	width:640px;
+	height:auto;
+	overflow:hidden;
+}
+#body #content .content .about h2 {
+	margin:80px 0 0 30px;
+	font-family: "Myriad Pro";
+}
+#body #content .content .about ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+#body #content .content .about ul li {
+	clear:both;
+	width:600px;
+	padding:20px 10px 0 30px;
+}
+#body #content .content .about ul li h2 {
+	margin:0;
+	padding:0;
+	font-weight:normal;
+}
+#body #content .content .about ul li h2 a {
+	color:#ff9506;
+	font-size:24 px;
+	font-family: "Myriad Pro";
+	text-decoration:none;
+}
+#body #content .content .about ul li h2 a:hover {
+	color: #7F7154;
+}
+#body #content .content .about ul li p {
+	color: #7F7154;
+	font-family: "Myriad Pro";
+	font-size: 14px;
+	text-align: justify;
+}
+#body #content .content .about ul li p span {
+	display:block;
+}
+#body #content .content .about ul li p a {
+	color:#000000;
+	text-decoration:underline;
+}
+#body #content .content .about ul li p a:hover {
+	color:#7F7154;
+}
+/**------------ End of About page style  -------------**/
+  
+  /**---------------- Start for Contacto Page Style ------------------**/
+  
+  #body #content .p {
+	margin: 10px 0 0 30px;
+	padding:0 15px 0 0;
+	font-family: "Myriad Pro";
+	font-size:14px;
+	line-height:25px;
+	color:#7F7154;
+}
+#body #content .content div p a {
+	color:#FF9E01;
+}
+#body #content .content div p a:hover {
+	color:#7F7154;
+}
+#body #content .content ul.connect {
+	font-family: "Myriad Pro";
+	margin: 50px 0 0 30px;
+}
+#body #content .content ul.connect li {
+	width:640px;
+	width:400px;
+	margin-top:20px;
+}
+#body #content .content ul.connect li h2 {
+	border-style:solid;
+	border-color:#ccc;
+	border-width:1px;
+	border-top:none;
+	border-right:none;
+	border-left:none;
+}
+#body #content .content ul.connect li span {
+	display:block;
+}
+#body #content .content ul.connect li span a {
+	color:#FF9E01;
+}
+#body #content .content ul.connect li span a:hover {
+	color:#7F7154;
+}
+/**---------------- End for Contact Page Style ------------------**/
+  
+}
+#body #content #sidebar .section ul.navigation li a:hover {
+	color:#7F7154;
+}
+/**---- Start of sidebar featured style----**/
+    #body #content #sidebar .featured {
+	width:300px;
+	height:auto;
+	overflow:hidden;
+	background-color:#ffffff;
+}
+#body #content #sidebar .featured ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+#body #content #sidebar .featured h2 {
+	font-family:"Myriad Pro";
+	font-size:28px;
+	color:#000000;
+	font-weight:normal;
+	margin:60px 0 0 0;
+}
+#body #content #sidebar .featured ul li {
+	clear:both;
+	width:300px;
+	height:170px;
+	margin: 10px 0;
+	background: url("../images/shadow.gif");
+	background-repeat:no-repeat;
+	background-position:bottom center;
+	overflow:visible;
+}
+#body #content #sidebar .featured ul li h2 {
+	margin:0 0 -10px 0;
+	padding:0;
+}
+#body #content #sidebar .featured ul li h2 a {
+	font-family:"Myriad Pro";
+	font-size:20px;
+	color:#000000;
+	font-weight:bold;
+}
+#body #content #sidebar .featured ul li h2 a:hover {
+	color:#7F7154;
+}
+#body #content #sidebar .featured ul li img {
+	border:0;
+	float:left;
+}
+#body #content #sidebar .featured ul li a {
+	text-decoration:none;
+}
+#body #content #sidebar .featured ul li p {
+	color:#7F7154;
+	font-family:"Myriad Pro";
+	font-size:14px;
+	line-height:25px;
+}
+#body #content #sidebar .featured ul li p a {
+	color:#000000;
+}
+#body #content #sidebar .featured ul li p a:hover {
+	color:#7F7154;
+}
+#body #content #sidebar .featured ul li.last {
+	background-image:none;
+}
+#body #content #sidebar .featured ul li p a.more {
+	color:#FF9506;
+}
+#body #content #sidebar .featured ul li p a.more:hover {
+	color:#7F7154;
+}
+/**---------------- Start of sidebar connect style ------------------**/
+   
+    #body #content #sidebar .connect {
+	width:300px;
+}
+#body #content #sidebar .connect h2 {
+	color:#ff9e01;
+	font-family:"Myriad Pro";
+	font-size:28px;
+	font-style:Italic;
+	margin:80px 0 0 0;
+	padding:0;
+	font-weight:normal;
+}
+#body #content #sidebar .connect ul {
+	margin:0;
+	list-style-type:none;
+}
+#body #content #sidebar .connect ul li {
+	clear:both;
+	height:70px;
+	background: url("../images/top-border-short.gif");
+	background-repeat:no-repeat;
+	background-position: 10px bottom;
+}
+#body #content #sidebar .connect ul li a {
+	text-decoration:none;
+	display:block;
+	line-height:70px;
+	padding-left:70px;
+	color:#93898a;
+}
+#body #content #sidebar .connect ul li a.facebook {
+	background: url("../images/icons.gif");
+	background-position: 0 -174px;
+	background-repeat:no-repeat;
+}
+#body #content #sidebar .connect ul li a.facebook:hover {
+	opacity:0.8;
+	filter:alpha(opacity=80);
+}
+#body #content #sidebar .connect ul li a.subscribe {
+	background: url("../images/icons.gif");
+	background-position: 0 -428px;
+	background-repeat:no-repeat;
+}
+#body #content #sidebar .connect ul li a.subscribe:hover {
+	opacity:0.8;
+	filter:alpha(opacity=80);
+}
+#body #content #sidebar .connect ul li a.twitter {
+	background: url("../images/icons.gif");
+	background-repeat:no-repeat;
+	background-position: 0 -588px;
+}
+#body #content #sidebar .connect ul li a.twitter:hover {
+	opacity:0.8;
+	filter:alpha(opacity=80);
+}
+#body #content #sidebar .connect ul li a.flicker {
+	background: url("../images/icons.gif");
+	background-repeat:no-repeat;
+	background-position: 0 -268px;
+}
+#body #content #sidebar .connect ul li a.flicker:hover {
+	opacity:0.8;
+	filter:alpha(opacity=80);
+}
+/**------------------------ End of sidebar style  ----------------------**/
+   
  
+/**--------------- Start of footer style ------------------**/
+   #footer {
+	background-color:#a54211;
+	background-image:none;
 }
-
-/* Estilos para cada columna (opcional) */
-.columna {
-  border: 1px solid #000;
+#footer .section {
+	width:100%;
+	margin:0 auto;
+	overflow:hidden;
+	position:relative;
 }
-
-.conteiner {
-  display: inline-block;
-  margin: 20px; /* Espacio entre las imágenes, si lo deseas */
+#footer .section ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+#footer .section ul li {
+	float: left;
+	width:100%;
+	height:190px;
+}
+#footer .section ul li img {
+	position:absolute;
+	top:0;
+}
+#footer .section ul li h2 {
+	position:relative;
+	top:50px;
+	left:0;
+	z-index:10;
+	padding: 0 10px 0 15px;
+	margin:20px 0 -15px 0;/*
+	  *margin:30px 0 -20px 0;
+	  */
+	 
+   }
+#footer .section  h2 a {
+	font-family:"Myriad Pro", Arial;
+	font-size:16px;
+	color:#bffb05;
+	text-decoration:none;
+	font-weight:normal;
+}
+#footer .section   p {
+	position:relative;
+	top:60px;
+	padding: 0 10px 0 15px;
+	z-index:10;
+	font-family:"Myriad Pro";
+	font-size:14px;
+	color:#ffffff;
+	line-height:20px;
+}
+#footer .section   p a {
+	color:#ffffff;
+}
+#footer .section  p a:hover {
+	color:#ff6700;
+}
+#footer .section  p a.more {
+	color:#ff6700;
+}
+#footer .section   p a.more:hover {
+	color:#ffffff;
+}
+#footer #footnote {
+	background-color:#ffad00;
+}
+#footer #footnote .section {
+	width:960px;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	font-family:"Myriad Pro";
+	font: size 12px;px;
+}
+#footer #footnote .section a {
+	text-decoration:none;
+	color:#000000;
+}
+#footer #footnote .section a:hover {
+	color:#ffffff;
 }
