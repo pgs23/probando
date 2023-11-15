@@ -7,31 +7,38 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: wrap;
+
+  position: relative;
+  height: 100svh;
   box-sizing: border-box;
-  display: grid;
-  background-image: (359.8deg, rgb(245, 255, 253) 2.2%, rgb(136, 201, 116) 99.3%);
 
-
+  height: 100svh;
 }
-
 header {
-  text-align: center;
-  height: 100%;
-  position: sticky;
-  border: 0px solid red;
-  background-image: linear-gradient(359.8deg, rgb(249, 255, 255) 2.2%, rgb(161, 218, 205) 99.3%);
+  background-image: url(https://img.freepik.com/free-vector/blue-fluid-background-frame_53876-99019.jpg?size=626&ext=jpg&ga=GA1.1.609444847.1699661775&semt=sph);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1%;
+  position: fixed;
+  width: 100%;
+  display: flex;
 }
 
 header picture img {
-  align-items: center;
-  width: 200px;
+  padding-left: 10%;
+  width: 20%;
   height: auto;
+  max-width: 100%;
 }
+
+
 
 .menu-vertical {
   margin: 0em;
-  padding: 1em;
-  position: fixed;  
+  padding-top: 10em;
+  position: fixed;
   width: 200px;
   height: 100svh;
   font-family: "Pacifico", cursive;
@@ -41,7 +48,6 @@ header picture img {
 
 .menu-vertical a {
   font-family: "Pacifico", cursive;
-  
   background-color: #eee;
   color: rgb(76, 23, 146);
   display: block;
@@ -59,36 +65,68 @@ header picture img {
 }
 
 main {
-  margin-left: 350px;
-  min-height: 100vh;
-  background-color: rgb(217, 246, 223);
+  display: flex;
+  margin-left: 20em;
+  height: 100%;
   text-align: center;
+  box-sizing: border-box;
+  padding-top: 10rem;
 }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 100vw;
+  margin-top: 2em;
+  margin-left:30%;
+  padding: 10px;
+  overflow-x: auto;
+
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+  
+
+}
 td img {
   text-align: center;
   border-radius: 30%;
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  height: auto;
 }
 
 td p {
   text-shadow: 2px 2px 4px rgb(235.255.202);
   text-align: left;
-  padding: 20px;
+  padding: 2em;
 }
 
-table {
-  border-collapse: collapse;
-  margin-top: 10px;
-  padding: 0x;
-  width: 100%;
+@keyframes fadeIn {
+  to {
+    opacity: 1; /* Al final de la animación, establecer la opacidad en 1 */
+  }
 }
+
+
 
 .hidden {
   display: none;
 }
 
-footer{
-  height: 70px;
+@media only screen and (max-width: 600px) {
+  header {
+    padding: 5px;
+  }
+
+  header picture img {
+    padding-left: 1em;
+    width: 150px;
+  }
+
+  td {
+    font-size: 12px; /* Ajustar el tamaño del texto para pantallas más pequeñas */
+  }
 }
+

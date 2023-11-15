@@ -48,3 +48,23 @@ footer{
   box-sizing: border-box;
   height: 50px;
 }
+
+@media only screen and (max-width: 600px) {
+  header {
+    padding: 5px;
+  }
+
+  header picture img {
+    padding-left: 1em;
+    width: 150px;
+  }
+
+  nav {
+    width: 60%;
+    padding-bottom: 4%;
+  }
+
+  nav a {
+    font-size: 12px;
+  }
+}
