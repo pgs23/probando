@@ -1,46 +1,50 @@
 
+
 *,
 html {
   margin: 0;
   padding: 0;
 }
-header {
-  background-position: center;
-  text-align: center;
 
+body {
+  box-sizing: border-box;
+  display: grid;
+  background-image: (359.8deg, rgba(252, 255, 222, 1) 2.2%, rgb(136, 201, 116) 99.3%);
+  
+
+}
+
+header {
+  text-align: center;
   height: 100%;
+  position: sticky;
   border: 1px solid red;
   background-image: linear-gradient(359.8deg, rgba(252, 255, 222, 1) 2.2%, rgb(136, 201, 116) 99.3%);
 }
 
-img{
-  border-radius: 25%;
-  position: relative;
- 
-}
-
 .menu-vertical {
-position: fixed;
-width: 200px;
-height: 100svh;
+  position: fixed;
+  width: 200px;
+  height: 100svh;
 }
 
 .menu-vertical a {
-background-color: #eee;
-color: black;
-display: block;
-padding: 1em;
-text-decoration: none;
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 1em;
+  text-decoration: none;
 }
 
 .menu-vertical a:hover {
-background-color: #ccc;
+  background-color: #ccc;
 }
 
 .menu-vertical a.active {
-background-color: #04aa6d;
-color: white;
+  background-color: #04aa6d;
+  color: rgb(236, 225, 225);
 }
+
 main {
   margin-left: 350px;
   min-height: 100vh;
@@ -48,20 +52,57 @@ main {
   text-align: center;
 }
 
-table {
-table-layout: fixed;
-width: 100%;
-border-collapse: collapse;
-border: 3px solid rgb(108, 233, 92);
+td img {
+    text-align: center;
+
+    border-radius: 40%;
+    width: 200px;
+    height: 200px;
+  
 }
-table tr td {
-width: 10%;
-white-space: nowrap;
+td p{
+  text-shadow: 2px 2px 4px  rgb(235.255.202);
+  text-align: left;
+  padding: 10px;
 }
 
-th,
-td {
-padding: 10px;
+table {
+  border-collapse: collapse;
+  padding: 35px;
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+
+
+.imagen-con-texto {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.imagen-con-texto:hover {
+  transform: rotateY(180deg);
+}
+
+.imagen-con-texto img,
+.imagen-con-texto .texto {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.imagen-con-texto .texto {
+  transform: rotateY(180deg);
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
 }
 
 
