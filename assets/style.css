@@ -1,7 +1,7 @@
 body {
 	margin:0;
 	padding:0;
-	background: url("../images/bg-body.gif");
+	background: url("/media/bg-body.gif");
 	background-repeat:repeat-x;
 }
 #page {
@@ -32,7 +32,7 @@ body {
 	width:107px;
 }
 #header ul.navigation li.active {
-	background:url("../images/menu.gif");
+	background:url("/media/menu.gif");
 	background-repeat:no-repeat;
 	background-position: 0 -160px;
 }
@@ -44,7 +44,7 @@ body {
 	font-weight:bold;
 	display:inline-block;
 	line-height:35px;
-	background:url("../images/menu-separator.gif");
+	background:url("/media/menu-separator.gif");
 	background-repeat:no-repeat;
 	background-position:right;
 	height:35px;
@@ -58,7 +58,7 @@ body {
 /**------------- Start of body style ----------------**/
   
   #body div.imagen-responsive {
-	background:url("../images/dog.jpg");
+	background:url("/media/dog.jpg");
 	background-position:center;
 	background-repeat:no-repeat;
 	max-width: 100%;
@@ -154,12 +154,11 @@ body {
 	float:left;
 	margin-right:10px;
 }
-	
-  /**----------- Start of Pet Mart Page Style ----------**/
-  
+
+  /**----------- ----------**/
   
   #body #content .search {
-	background:url("../images/bg-search-form2.gif");
+	background:url("/media/bg-search-form2.gif");
 	background-position:center;
 	background-repeat:no-repeat;
 	width:540px;
@@ -169,7 +168,7 @@ body {
 	margin-bottom:80px;
 }
 #body #content .search input {
-	background:url("../images/input-search2.gif");
+	background:url("/media/input-search2.gif");
 	background-position:center;
 	background-repeat:no-repeat;
 	width:420px;
@@ -181,7 +180,7 @@ body {
 	color:#7f7154;
 }
 #body #content .search button {
-	background:url("../images/buttons.gif");
+	background:url("/media/buttons.gif");
 	background-position: 0 -270px;
 	background-repeat:no-repeat;
 	width:77px;
@@ -200,10 +199,8 @@ body {
 	width:10px;
 	background:transparent;
 }
-/**----------- End of Pet Mart Page Style ----------**/
-  
-  
-  /**------------ Start of About page style  -------------**/
+    
+  /**------------ page style  -------------**/
   
   #body #content .content .about {
 	width:640px;
@@ -254,9 +251,8 @@ body {
 #body #content .content .about ul li p a:hover {
 	color:#7F7154;
 }
-/**------------ End of About page style  -------------**/
   
-  /**---------------- Start for Contacto Page Style ------------------**/
+  /**---------------- Start ubication Page Style ------------------**/
   
   #body #content .p {
 	margin: 10px 0 0 30px;
@@ -300,7 +296,6 @@ body {
 }
 /**---------------- End for Contact Page Style ------------------**/
   
-}
 #body #content #sidebar .section ul.navigation li a:hover {
 	color:#7F7154;
 }
@@ -328,7 +323,7 @@ body {
 	width:300px;
 	height:170px;
 	margin: 10px 0;
-	background: url("../images/shadow.gif");
+	background: url("/media/shadow.gif");
 	background-repeat:no-repeat;
 	background-position:bottom center;
 	overflow:visible;
@@ -375,7 +370,6 @@ body {
 	color:#7F7154;
 }
 /**---------------- Start of sidebar connect style ------------------**/
-   
     #body #content #sidebar .connect {
 	width:300px;
 }
@@ -395,7 +389,7 @@ body {
 #body #content #sidebar .connect ul li {
 	clear:both;
 	height:70px;
-	background: url("../images/top-border-short.gif");
+	background: url("/media/top-border-short.gif");
 	background-repeat:no-repeat;
 	background-position: 10px bottom;
 }
@@ -407,7 +401,7 @@ body {
 	color:#93898a;
 }
 #body #content #sidebar .connect ul li a.facebook {
-	background: url("../images/icons.gif");
+	background: url("/media/icon-facebook.gif");
 	background-position: 0 -174px;
 	background-repeat:no-repeat;
 }
@@ -416,7 +410,7 @@ body {
 	filter:alpha(opacity=80);
 }
 #body #content #sidebar .connect ul li a.subscribe {
-	background: url("../images/icons.gif");
+	background: url("/media/icon-mail.gif");
 	background-position: 0 -428px;
 	background-repeat:no-repeat;
 }
@@ -425,7 +419,7 @@ body {
 	filter:alpha(opacity=80);
 }
 #body #content #sidebar .connect ul li a.twitter {
-	background: url("../images/icons.gif");
+	background: url("/media/icon-twitter.gif");
 	background-repeat:no-repeat;
 	background-position: 0 -588px;
 }
@@ -433,18 +427,11 @@ body {
 	opacity:0.8;
 	filter:alpha(opacity=80);
 }
-#body #content #sidebar .connect ul li a.flicker {
-	background: url("../images/icons.gif");
-	background-repeat:no-repeat;
-	background-position: 0 -268px;
-}
+
 #body #content #sidebar .connect ul li a.flicker:hover {
 	opacity:0.8;
 	filter:alpha(opacity=80);
 }
-/**------------------------ End of sidebar style  ----------------------**/
-   
- 
 /**--------------- Start of footer style ------------------**/
    #footer {
 	background-color:#a54211;
@@ -456,20 +443,12 @@ body {
 	overflow:hidden;
 	position:relative;
 }
-#footer .section ul {
-	margin:0;
-	padding:0;
-	list-style-type:none;
-}
 #footer .section ul li {
 	float: left;
 	width:100%;
 	height:190px;
 }
-#footer .section ul li img {
-	position:absolute;
-	top:0;
-}
+
 #footer .section ul li h2 {
 	position:relative;
 	top:50px;
@@ -479,52 +458,9 @@ body {
 	margin:20px 0 -15px 0;/*
 	  *margin:30px 0 -20px 0;
 	  */
-	 
-   }
-#footer .section  h2 a {
-	font-family:"Myriad Pro", Arial;
-	font-size:16px;
-	color:#bffb05;
-	text-decoration:none;
-	font-weight:normal;
-}
-#footer .section   p {
-	position:relative;
-	top:60px;
-	padding: 0 10px 0 15px;
-	z-index:10;
-	font-family:"Myriad Pro";
-	font-size:14px;
-	color:#ffffff;
-	line-height:20px;
-}
-#footer .section   p a {
-	color:#ffffff;
-}
-#footer .section  p a:hover {
-	color:#ff6700;
-}
-#footer .section  p a.more {
-	color:#ff6700;
-}
-#footer .section   p a.more:hover {
-	color:#ffffff;
-}
-#footer #footnote {
-	background-color:#ffad00;
-}
-#footer #footnote .section {
-	width:960px;
-	height:50px;
-	text-align:center;
-	line-height:50px;
-	font-family:"Myriad Pro";
-	font: size 12px;px;
 }
 #footer #footnote .section a {
 	text-decoration:none;
 	color:#000000;
 }
-#footer #footnote .section a:hover {
-	color:#ffffff;
-}
+
