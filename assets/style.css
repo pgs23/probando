@@ -5,8 +5,7 @@ body {
 	background: url("/media/bg-body.gif");
 	background-repeat:repeat-x;
 }
-#page {
-}
+
 #header {
 	font-size: clamp (1rem, 3vw + 0.2rem, 1rem);
 	position: relative;
