@@ -1,3 +1,4 @@
+
 body {
 	margin:0;
 	padding:0;
@@ -11,6 +12,7 @@ body {
 	position: relative;
   background-image: linear-gradient(359.8deg, rgba(252, 255, 222, 1) 2.2%, rgb(136, 201, 116) 99.3%);
   padding: 5%;
+  margin:0 auto;
 }
 #header a#logo {
 	position:relative;
@@ -19,7 +21,7 @@ body {
 #header a#logo img {
 	border:0;
 }
-/**-------------- Navigation style ---------------**/
+/**-------------- estilo para nav menu---------------**/
   #header ul.navigation {
 	list-style-type:none;
 	margin:-82px 0 0 300px;
@@ -53,16 +55,15 @@ body {
 	width:67px;
 }
 #header ul.navigation li a:hover {
-	color:#ffffff;
+	color:#ffee00;
 }
-/**------------- Start of body style ----------------**/
+/**------------- estilo para body   ----------------**/
   
   #body div.imagen-responsive {
 	background:url("/media/dog.jpg");
 	background-position:center;
 	background-repeat:no-repeat;
-	max-width: 100%;
-   	height: 600px;
+	height: 606px;
 }
 #body div#content {
 	width:960px;
@@ -73,8 +74,8 @@ body {
 	overflow:hidden;
 }
 #body div#content .content {
-	float:center;
-	width:100%;
+	float:left;
+	width:640px;
 	margin-right:20px;
 	background-image:none;
 	height:auto;
@@ -155,104 +156,17 @@ body {
 	margin-right:10px;
 }
 
-  /**----------- ----------**/
-  
-  #body #content .search {
-	background:url("/media/bg-search-form2.gif");
-	background-position:center;
+ 
+ /**---------------- Main Page Style ------------------**/
+
+
+#body #main.h1  {
+	background-position: center;
 	background-repeat:no-repeat;
-	width:540px;
-	height:75px;
-	margin:0 auto;
-	margin-top:80px;
-	margin-bottom:80px;
+	max-width: 50%;
+   	height: auto;
 }
-#body #content .search input {
-	background:url("/media/input-search2.gif");
-	background-position:center;
-	background-repeat:no-repeat;
-	width:420px;
-	padding: 8px 5px;
-	border:0;
-	margin:5px 3px 5px 10px;
-	font-size:14px;
-	font-family:"Myriad Pro";
-	color:#7f7154;
-}
-#body #content .search button {
-	background:url("/media/buttons.gif");
-	background-position: 0 -270px;
-	background-repeat:no-repeat;
-	width:77px;
-	height:30px;
-	border:0;
-	margin:5px 5px 5px 0;
-	cursor:pointer;
-}
-#body #content .search label {
-	font-size:14px;
-	font-family:"Myriad Pro";
-	color:#ffffff;
-}
-#body #content .search label input {
-	margin: 0 10px 0 10px;
-	width:10px;
-	background:transparent;
-}
-    
-  /**------------ page style  -------------**/
-  
-  #body #content .content .about {
-	width:640px;
-	height:auto;
-	overflow:hidden;
-}
-#body #content .content .about h2 {
-	margin:80px 0 0 30px;
-	font-family: "Myriad Pro";
-}
-#body #content .content .about ul {
-	margin:0;
-	padding:0;
-	list-style-type:none;
-}
-#body #content .content .about ul li {
-	clear:both;
-	width:600px;
-	padding:20px 10px 0 30px;
-}
-#body #content .content .about ul li h2 {
-	margin:0;
-	padding:0;
-	font-weight:normal;
-}
-#body #content .content .about ul li h2 a {
-	color:#ff9506;
-	font-size:24 px;
-	font-family: "Myriad Pro";
-	text-decoration:none;
-}
-#body #content .content .about ul li h2 a:hover {
-	color: #7F7154;
-}
-#body #content .content .about ul li p {
-	color: #7F7154;
-	font-family: "Myriad Pro";
-	font-size: 14px;
-	text-align: justify;
-}
-#body #content .content .about ul li p span {
-	display:block;
-}
-#body #content .content .about ul li p a {
-	color:#000000;
-	text-decoration:underline;
-}
-#body #content .content .about ul li p a:hover {
-	color:#7F7154;
-}
-  
-  /**---------------- Start ubication Page Style ------------------**/
+  /**---------------- pagina ubication    Style ------------------**/
   
   #body #content .p {
 	margin: 10px 0 0 30px;
@@ -294,173 +208,99 @@ body {
 #body #content .content ul.connect li span a:hover {
 	color:#7F7154;
 }
-/**---------------- End for Contact Page Style ------------------**/
-  
-#body #content #sidebar .section ul.navigation li a:hover {
-	color:#7F7154;
-}
-/**---- Start of sidebar featured style----**/
-    #body #content #sidebar .featured {
-	width:300px;
-	height:auto;
+/**---------------- pagina comentarios style------------------**/
+#body #content .content ul.section {
+	margin:80px 0 0 30px;
+	list-style-type:none;
+	width:580px;
 	overflow:hidden;
-	background-color:#ffffff;
+	height:auto;
 }
-#body #content #sidebar .featured ul {
-	margin:0;
+#body #content .content ul.section li {
+	width:240px;
+	margin:0 50px 10px 0;
 	padding:0;
-	list-style-type:none;
-}
-#body #content #sidebar .featured h2 {
-	font-family:"Myriad Pro";
-	font-size:28px;
-	color:#000000;
-	font-weight:normal;
-	margin:60px 0 0 0;
-}
-#body #content #sidebar .featured ul li {
-	clear:both;
-	width:300px;
-	height:170px;
-	margin: 10px 0;
-	background: url("/media/shadow.gif");
-	background-repeat:no-repeat;
-	background-position:bottom center;
-	overflow:visible;
-}
-#body #content #sidebar .featured ul li h2 {
-	margin:0 0 -10px 0;
-	padding:0;
-}
-#body #content #sidebar .featured ul li h2 a {
-	font-family:"Myriad Pro";
-	font-size:20px;
-	color:#000000;
-	font-weight:bold;
-}
-#body #content #sidebar .featured ul li h2 a:hover {
-	color:#7F7154;
-}
-#body #content #sidebar .featured ul li img {
-	border:0;
 	float:left;
+	height:250px;
 }
-#body #content #sidebar .featured ul li a {
-	text-decoration:none;
-}
-#body #content #sidebar .featured ul li p {
-	color:#7F7154;
+#body #content .content ul.section li h2 {
+	background-color:#ff9d13;
+	height:30px;
+	line-height:30px;
+	text-align:center;
 	font-family:"Myriad Pro";
-	font-size:14px;
-	line-height:25px;
-}
-#body #content #sidebar .featured ul li p a {
-	color:#000000;
-}
-#body #content #sidebar .featured ul li p a:hover {
-	color:#7F7154;
-}
-#body #content #sidebar .featured ul li.last {
-	background-image:none;
-}
-#body #content #sidebar .featured ul li p a.more {
-	color:#FF9506;
-}
-#body #content #sidebar .featured ul li p a.more:hover {
-	color:#7F7154;
-}
-/**---------------- Start of sidebar connect style ------------------**/
-    #body #content #sidebar .connect {
-	width:300px;
-}
-#body #content #sidebar .connect h2 {
-	color:#ff9e01;
-	font-family:"Myriad Pro";
-	font-size:28px;
-	font-style:Italic;
-	margin:80px 0 0 0;
-	padding:0;
+	color:#ffffff;
 	font-weight:normal;
 }
-#body #content #sidebar .connect ul {
-	margin:0;
-	list-style-type:none;
+#body #content .content .paging {
+	margin:0 0 20px 40px;
+	background:url("../media/border-dotted.gif");
+	background-position:top;
+	background-repeat:repeat-x;
+	width:480px;
+	height:80px;
 }
-#body #content #sidebar .connect ul li {
-	clear:both;
-	height:70px;
-	background: url("/media/top-border-short.gif");
-	background-repeat:no-repeat;
-	background-position: 10px bottom;
-}
-#body #content #sidebar .connect ul li a {
+#body #content .content .paging a {
 	text-decoration:none;
-	display:block;
-	line-height:70px;
-	padding-left:70px;
-	color:#93898a;
+	font-size:24px;
+	font-family:"Myriad Pro";
+	color:#ffffff;
+	text-align:center;
+	background:url("../media/buttons.gif");
+	background-position: 0 -90px;
+	background-repeat:repeat-x;
+	height:40px;
+	width:40px;
+	float:left;
+	margin:20px 5px 20px 5px;
+	line-height:40px;
 }
-#body #content #sidebar .connect ul li a.facebook {
-	background: url("/media/icon-facebook.gif");
-	background-position: 0 -174px;
-	background-repeat:no-repeat;
+#body #content .content .paging a:hover {
+	color:#000000;
 }
-#body #content #sidebar .connect ul li a.facebook:hover {
-	opacity:0.8;
-	filter:alpha(opacity=80);
+#body #content .content .paging a.active {
+	background:url("../media/buttons.gif");
+	background-position: 0 0;
+	background-repeat:repeat-x;
 }
-#body #content #sidebar .connect ul li a.subscribe {
-	background: url("/media/icon-mail.gif");
-	background-position: 0 -428px;
-	background-repeat:no-repeat;
-}
-#body #content #sidebar .connect ul li a.subscribe:hover {
-	opacity:0.8;
-	filter:alpha(opacity=80);
-}
-#body #content #sidebar .connect ul li a.twitter {
-	background: url("/media/icon-twitter.gif");
-	background-repeat:no-repeat;
-	background-position: 0 -588px;
-}
-#body #content #sidebar .connect ul li a.twitter:hover {
-	opacity:0.8;
-	filter:alpha(opacity=80);
+#body #content .content .paging a.next {
+	background:url("../media/buttons.gif");
+	background-position: 0 -180px;
+	background-repeat:repeat-x;
+	height:40px;
+	width:100px;
 }
 
-#body #content #sidebar .connect ul li a.flicker:hover {
-	opacity:0.8;
-	filter:alpha(opacity=80);
-}
+
 /**--------------- Start of footer style ------------------**/
-   #footer {
-	background-color:#a54211;
+
+#footer {
+	background-color:rgb(206, 127, 24);
 	background-image:none;
 }
 #footer .section {
-	width:100%;
+	width:960px;
 	margin:0 auto;
 	overflow:hidden;
 	position:relative;
 }
-#footer .section ul li {
+#footer .section h2 {
 	float: left;
-	width:100%;
+	width:240px;
 	height:190px;
 }
-
+#footer .section h2 {
+	position:absolute;
+	top:0;
+}
 #footer .section ul li h2 {
 	position:relative;
-	top:50px;
+	top:60px;
 	left:0;
 	z-index:10;
 	padding: 0 10px 0 15px;
 	margin:20px 0 -15px 0;/*
 	  *margin:30px 0 -20px 0;
 	  */
-}
-#footer #footnote .section a {
-	text-decoration:none;
-	color:#000000;
 }
 
