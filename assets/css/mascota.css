@@ -1,0 +1,123 @@
+body {
+	margin:0;
+	padding:0;
+	background: url("/media/bg-body.gif");
+	background-repeat:repeat-x;
+}
+
+header {
+	position: relative;
+  background-image: linear-gradient(359.8deg, rgba(252, 255, 222, 1) 2.2%, rgb(136, 201, 116) 99.3%);
+  padding: 5%;
+  margin:0 auto;
+}
+header a#logo {
+	position:relative;
+	z-index:100;
+}
+header a#logo img {
+	border:0;
+}
+/**-------------- estilo para nav menu---------------**/
+.navigation {
+	list-style-type:none;
+	margin:-82px 0 0 300px;
+	padding:0;
+	overflow:hidden;
+}
+.navigation li {
+	float:left;
+	height:35px;
+	width:107px;
+}
+.navigation li.active {
+	background:url("/media/menu.gif");
+	background-repeat:no-repeat;
+	background-position: 0 -160px;
+}
+.navigation li a {
+	text-decoration:none;
+	color:#2c1d00;
+	font-family:"Myriad Pro";
+	font-size:14px;
+	font-weight:bold;
+	display:inline-block;
+	line-height:35px;
+	background:url("/media/menu-separator.gif");
+	background-repeat:no-repeat;
+	background-position:right;
+	height:35px;
+	padding:0 20px 0 20px;
+	text-align:center;
+	width:67px;
+}
+.navigation li a:hover {
+	color:#ffee00;
+}
+
+.imagen-responsive {
+	background:url("/media/dog.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+	width:100%;
+	height:500px;
+}
+
+
+body #content .content ul li span a.more:hover {
+	text-decoration:none;
+	color:#ff6600;
+}
+body #content .content ul li a {
+	text-decoration:none;
+}
+body #content .content ul li a:hover {
+	color:#F8F3E9;
+}
+body #content .content ul li a.more {
+	text-decoration:none;
+	color:#FFAD00;
+}
+body #content .content ul li a.more:hover {
+	text-decoration:none;
+	color:#ff6600;
+}
+body #content .content ul li h2 {
+	font-family:"Myriad Pro";
+	font-size:20px;
+	margin:0;
+}
+body #content .content ul li p {
+	font-family:"Myriad Pro";
+	font-size:14px;
+	text-align:justify;
+	color:#7f7154;
+	margin:0;
+}
+body #content .content ul li p a {
+	color:#FF9E01;
+}
+body #content .content ul li p a:hover {
+	color:#7f7154;
+}
+body #content .content ul li img {
+	border:0;
+	float:left;
+	margin-right:10px;
+}
+
+#container{
+  width: min(100%, 1000px);
+  margin: 100px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container img{
+    display: flex;
+    width: 300px;
+    height: auto;
+}
+
+
