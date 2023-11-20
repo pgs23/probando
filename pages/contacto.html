@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Pet Shop</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="/assets/css/style.css" rel="stylesheet" />
+
+</head>
+
+
+<body>
+  <header>
+
+    <div id="body">
+      <div id="header"> <a href="#" id="logo"><img src="/media/logo.png" width="250" height="auto" alt=""></a>
+        <ul class="navigation">
+          <li class="active"><a href="/index.html">Nosotros</a></li>
+          <li><a href="./productos.html">Productos</a></li>
+          <li><a href="./contacto.html">Contactanos</a></li>
+        </ul>
+      </div>
+  </header>
+
+<main>
+
+  <div class="contenedor-formulario">
+    <form action="https://sheetdb.io/api/v1/nu5diyqjgddny" method="post" id="PedidosPetShop">
+
+      <span><i class="fa fa-address-card" style="color: #006d8f;"></i></span>
+      <h2>Información de contacto</h2>
+      <br>
+
+      <div>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="data[Nombre]" />
+      </div>
+      <div>
+        <label for="mail">Correo electrónico:</label>
+        <input type="email" id="mail" name="data[Email]" />
+      </div>
+      <div>
+        <label for="msg">Comentario:</label>
+        <textarea id="msg" name="data[Comentario]"></textarea>
+      </div>
+      <div class="button">
+
+        <button type="submit">
+          <h2>Envia tu mensaje</h2>
+        </button>
+      </div>
+    </form>
+  </div>
+
+
+  <div class="Ubicacion">
+    <center>
+      <h2>Ubicacion</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3287.092831195893!2d-58.55463392523134!3d-34.52587597298235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1696686201122!5m2!1ses!2sar"
+        width="500" height="250" style="border: 1" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+      <h3>Av. Iraola 243, B1900 La Plata, Provincia de Buenos Aires</h3>
+    </center>
+  </div><br><br>
+
+</main>
+
+
+<footer>
+
+  <div id="footer">
+    <center>
+      <h2> María - Pablo - Liliana </h2>
+    </center>
+  </div>
+
+
+</footer>
+
+<script src="/assets/js/style.j"></script>
+<script src="/assets/js/form.js"></script>
+
+
+</body>
+
+</html>

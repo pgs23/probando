@@ -1,0 +1,62 @@
+
+body #content .content ul.section {
+	margin:80px 0 0 30px;
+	list-style-type:none;
+	width:580px;
+	overflow:hidden;
+	height:auto;
+}
+body #content .content ul.section li {
+	width:240px;
+	margin:0 50px 10px 0;
+	padding:0;
+	float:left;
+	height:250px;
+}
+body #content .content ul.section li h2 {
+	background-color:#ff9d13;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	font-family:"Myriad Pro";
+	color:#ffffff;
+	font-weight:normal;
+}
+body #content .content .paging {
+	margin:0 0 20px 40px;
+	background:url("../media/border-dotted.gif");
+	background-position:top;
+	background-repeat:repeat-x;
+	width:480px;
+	height:80px;
+}
+body #content .content .paging a {
+	text-decoration:none;
+	font-size:24px;
+	font-family:"Myriad Pro";
+	color:#ffffff;
+	text-align:center;
+	background:url("../media/buttons.gif");
+	background-position: 0 -90px;
+	background-repeat:repeat-x;
+	height:40px;
+	width:40px;
+	float:left;
+	margin:20px 5px 20px 5px;
+	line-height:40px;
+}
+#body #content .content .paging a:hover {
+	color:#000000;
+}
+#body #content .content .paging a.active {
+	background:url("../media/buttons.gif");
+	background-position: 0 0;
+	background-repeat:repeat-x;
+}
+#body #content .content .paging a.next {
+	background:url("../media/buttons.gif");
+	background-position: 0 -180px;
+	background-repeat:repeat-x;
+	height:40px;
+	width:100px;
+}
